@@ -4,6 +4,7 @@ import Increment from "./Increment";
 import Usestate from "./UseState";
 import UseEffect from "./UseEffect";
 import UseEffect1 from "./UseEffect1";
+import Props from "./Props";
 
 
 
@@ -19,6 +20,7 @@ const App=()=>{
       <Route path="usestate" element={<Usestate/>}/>
       <Route path="useeffect" element={<UseEffect/>}/>
       <Route path="useeffect1" element={<UseEffect1/>}/>
+      <Route path="props" element={<Props/>}/>
 
 
       </Route>
