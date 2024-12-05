@@ -14,6 +14,7 @@ const Layout=()=>{
       <Link to="props">Props</Link>
       <Link to="useref">Useref</Link>
       <Link to="useref1">Useref1</Link>
+      <Link to="usememo">Usememo</Link>
 
       <Outlet/>
       </>
