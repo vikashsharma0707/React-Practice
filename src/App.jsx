@@ -5,6 +5,8 @@ import Usestate from "./UseState";
 import UseEffect from "./UseEffect";
 import UseEffect1 from "./UseEffect1";
 import Props from "./Props";
+import Useref from "./Useref";
+import Useref1 from "./Useref1";
 
 
 
@@ -21,6 +23,8 @@ const App=()=>{
       <Route path="useeffect" element={<UseEffect/>}/>
       <Route path="useeffect1" element={<UseEffect1/>}/>
       <Route path="props" element={<Props/>}/>
+      <Route path="useref" element={<Useref/>}/>
+      <Route path="useref1" element={<Useref1/>}/>
 
 
       </Route>
